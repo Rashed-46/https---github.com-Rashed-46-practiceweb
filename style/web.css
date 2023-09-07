@@ -7,13 +7,13 @@ body {
     font-family: Open Sans;
 }
 
-.header1 {
+.header1{
     width: 1600px;
     height: 837px;
+    background: #FFF8F3;
+    
 
 }
-
-
 nav {
     display: flex;
     align-items: center;
@@ -55,11 +55,36 @@ nav a {
     font-weight: 800;
 
 }
-.banner{
+
+.banner {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
-.name{
-    
+
+.name {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.org-name {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.banner{
+    margin: 50px 30px 0px 200px;
 }
