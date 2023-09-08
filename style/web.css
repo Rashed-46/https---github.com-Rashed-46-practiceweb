@@ -91,6 +91,7 @@ nav a {
 .banner {
     margin: 50px 30px 0px 200px;
 }
+
 /*main section*/
 
 .about-me {
@@ -129,9 +130,64 @@ nav a {
     font-size: 20px;
     font-weight: 400;
 }
-.description{
-   color: #474747;
+
+.description {
+    color: #474747;
 }
-.head{
-    
+
+.head {
+    text-align: center;
+}
+
+.header-sec {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 40px 330px;
+
+}
+
+.skill-continer {
+    display: flex;
+    margin: 0px 180px;
+    padding: 30px;
+    gap: 30px
+}
+
+.skill {
+    border-radius: 5px;
+    background-color: #808080;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.picture {
+
+    padding: 30px 180px 30px 30px;
+}
+
+.head-what-do {
+    color: #181818;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-left: 20px;
+
+}
+
+.des-what-to-do {
+    color: #181818;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0px 20px 20px 20px;
+
+}
+
+.head-resume {
+    text-align: center;
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
 }
