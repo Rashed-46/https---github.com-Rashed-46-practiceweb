@@ -7,6 +7,10 @@ body {
     font-family: Open Sans;
 }
 
+section {
+    margin-top: 120px;
+}
+
 .header1 {
     width: 1600px;
     height: 837px;
@@ -190,4 +194,33 @@ nav a {
     font-size: 35px;
     font-weight: 700;
 
+}
+
+.resume-colume {
+    display: flex;
+}
+
+.resume-title {
+    text-align: center;
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-head {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-sub-head {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-description {
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
 }
