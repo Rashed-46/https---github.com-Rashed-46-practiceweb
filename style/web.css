@@ -15,6 +15,8 @@ section {
     width: 1600px;
     height: 837px;
     background: #FFF8F3;
+    
+   
 
 
 }
@@ -23,7 +25,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 220px;
+    margin: 50px 200px;
 }
 
 nav>ul {
@@ -67,8 +69,18 @@ nav a {
     justify-content: space-around;
     align-items: center;
     background-image: url('../images/header_bg.png');
+   
+   
     background-repeat: no-repeat;
     background-position: bottom right;
+    
+
+}
+.main-div{
+    background-image: url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin-left: 30px;
 
 }
 
@@ -99,7 +111,7 @@ nav a {
 /*main section*/
 
 .about-me {
-    margin: 130px 230px;
+    margin: 130px 200px;
     border-radius: 10px;
     background: #FFF8F3;
 }
