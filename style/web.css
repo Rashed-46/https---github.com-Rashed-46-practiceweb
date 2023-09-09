@@ -198,29 +198,41 @@ nav a {
 
 .resume-colume {
     display: flex;
+    padding: 130px 230px 50px 230px;
+    gap: 70px;
 }
 
 .resume-title {
-    text-align: center;
+   
     color: #474747;
     font-size: 30px;
     font-weight: 700;
+   
 }
 
 .resume-head {
     color: #474747;
     font-size: 25px;
     font-weight: 700;
+    padding-top: 30px;
 }
 
 .resume-sub-head {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
+    padding: 10px 0px 20px 0px;
 }
 
 .resume-description {
     color: #757575;
     font-size: 16px;
     line-height: 28px;
+    padding-bottom: 30px;
 }
+.download-cv{
+    text-align: center;
+    margin-bottom:  70px ;
+
+}
+.footer
