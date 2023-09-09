@@ -203,11 +203,11 @@ nav a {
 }
 
 .resume-title {
-   
+
     color: #474747;
     font-size: 30px;
     font-weight: 700;
-   
+
 }
 
 .resume-head {
@@ -230,9 +230,56 @@ nav a {
     line-height: 28px;
     padding-bottom: 30px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
-    margin-bottom:  70px ;
+    margin-bottom: 70px;
 
 }
-.footer
+
+/*footer style*/
+.footer {
+    display: flex;
+    gap: 150px;
+    justify-content: space-around;
+}
+
+footer {
+    background: #FFF8F3;
+    padding: 20px 230px;
+}
+
+.footer-head {
+    color: #181818;
+
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.footer-description {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 30px 0px 30px 0px;
+    width: 562px;
+}
+
+.image-div {
+    margin-right: 30px;
+}
+
+.input-form input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 25px;
+    padding: 18px 300px 18px 30px;
+    border-radius: 5px;
+    border: 0px;
+
+}
+
+.text {
+    width: 170px;
+    height: 150px;
+
+}
